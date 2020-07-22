@@ -538,10 +538,54 @@
     }
 
 
-    #city_modal form .shops label
+
+    #city_modal .tabs button
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    #city_modal .tabs button + button
+    {
+        margin-left: 20px;
+    }
+
+
+    #city_modal .popular > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    #city_modal .list
+    {
+        column-count: 1;
+    }
+
+
+
+    #center_modal form .shops label
     {
         font-size: 13px;
-        line-height: 21px;
+        line-height: 17px;
+
+        padding: 10px 13px;
+    }
+
+    #center_modal form .shops label > * + *
+    {
+        margin-top: 3px;
+    }
+
+    #center_modal form .shops label .name
+    {
+        padding-right: 30px;
+    }
+
+
+    #center_modal .map
+    {
+        height: 300px;
     }
 
 

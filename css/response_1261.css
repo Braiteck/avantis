@@ -1047,9 +1047,21 @@
     }
 
 
-    #city_modal form .submit
+
+    #center_modal .city
     {
-        padding: 20px 20px 0;
+        margin-bottom: 5px;
+    }
+
+    #center_modal form .shops
+    {
+        padding-top: 15px;
+    }
+
+    #center_modal form .submit
+    {
+        margin-top: 20px;
+        padding: 20px 0 0;
     }
 
 

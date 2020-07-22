@@ -814,12 +814,54 @@
     /*---------------
         PopUp
     ---------------*/
-    #city_modal form
+    #city_modal .tabs
+    {
+        padding: 12px 20px;
+    }
+
+    #city_modal .tabs button
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    #city_modal .tabs button + button
+    {
+        margin-left: 30px;
+    }
+
+
+    #city_modal .modal_data
+    {
+        padding: 20px;
+    }
+
+    #city_modal .title
+    {
+        font-size: 18px;
+    }
+
+
+    #city_modal .popular > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    #city_modal .list
+    {
+        column-count: 2;
+    }
+
+
+
+    #center_modal form
     {
         width: 100%;
     }
 
-    #city_modal .map
+
+    #center_modal .map
     {
         width: 100%;
         height: 400px;

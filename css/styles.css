@@ -9609,19 +9609,301 @@ footer .socials img
 
 #city_modal
 {
-    width: 960px;
+    width: 940px;
+    padding: 0;
+}
+
+#city_modal .tabs
+{
+    display: flex;
+
+    padding: 20px 40px;
+
+    background: #f5f5f5;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#city_modal .tabs button
+{
+    color: var(--text_color);
+    font-family: var(--font_family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+
+    display: flex;
+
+    cursor: pointer;
+    transition: color .2s linear;
+    text-transform: uppercase;
+
+    border: none;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#city_modal .tabs button img
+{
+    display: block;
+
+    margin-right: 9px;
+}
+
+#city_modal .tabs button + button
+{
+    margin-left: 55px;
+}
+
+#city_modal .tabs button:hover,
+#city_modal .tabs button.active
+{
+    color: #007bc2;
+}
+
+
+#city_modal .modal_data
+{
+    padding: 25px 120px;
+}
+
+
+#city_modal .tab_content
+{
+    position: relative;
+
+    visibility: hidden;
+    overflow: hidden;
+
+    height: 0;
+
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+#city_modal .tab_content.active
+{
+    visibility: visible;
+    overflow: visible;
+
+    height: auto;
+
+    transition: opacity .5s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+#city_modal .title
+{
+    color: #007bc2;
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+
+#city_modal .search .label
+{
+    color: #808080;
+
+    margin-bottom: 8px;
+    padding: 0 20px;
+}
+
+#city_modal .search form
+{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#city_modal .search ::-webkit-input-placeholder
+{
+    color: #808080;
+}
+
+#city_modal .search :-moz-placeholder
+{
+    color: #808080;
+}
+
+#city_modal .search :-ms-input-placeholder
+{
+    color: #808080;
+}
+
+#city_modal .search .input
+{
+    color: var(--text_color);
+    font-family: var(--font_family);
+    font-size: 16px;
+
+    display: block;
+
+    width: 100%;
+    height: 45px;
+    padding: 0 70px 0 19px;
+
+    border: 1px solid #6fbbe1;
+    border-radius: 2px;
+    background: #fff;
+}
+
+#city_modal .search .submit_btn
+{
+    position: relative;
+
+    width: 70px;
+    height: 45px;
+    margin-left: -70px;
+
+    cursor: pointer;
+
+    border: none;
+    background: url(../images/ic_search2.svg) 50% no-repeat;
+}
+
+
+#city_modal .popular
+{
+    display: flex;
+
+    margin-top: 15px;
+    margin-bottom: -10px;
+    margin-left: -20px;
+    padding: 0 20px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#city_modal .popular > *
+{
+    width: calc(25% - 20px);
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#city_modal .popular button
+{
+    color: #007bc2;
+    font-family: var(--font_family);
+    font-size: 16px;
+    line-height: 22px;
+
+    display: inline-block;
+
+    cursor: pointer;
+    vertical-align: top;
+
+    border: none;
+    background: none;
+}
+
+#city_modal .popular button:hover
+{
+    text-decoration: underline;
+}
+
+
+#city_modal .custom_scroll
+{
+    overflow: hidden;
+
+    height: 365px;
+    margin-top: 20px;
+}
+
+#city_modal .list
+{
+    padding: 0 20px;
+
+    column-gap: 20px;
+    column-count: 4;
+}
+
+#city_modal .list > *
+{
+    transform: translateZ(0);
+
+    --webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+#city_modal .list > * + *
+{
+    margin-top: 25px;
+}
+
+
+#city_modal .list .letter .name
+{
+    color: #007bc2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    margin-bottom: 5px;
+
+    text-transform: uppercase;
+}
+
+#city_modal .list .items > * + *
+{
+    margin-top: 5px;
+}
+
+#city_modal .list .items button
+{
+    color: #5c5c5c;
+    font-family: var(--font_family);
+    font-size: 14px;
+    line-height: 20px;
+
+    display: inline-block;
+
+    cursor: pointer;
+    transition: color .2s linear;
+    vertical-align: top;
+
+    border: none;
+    background: none;
+}
+
+#city_modal .list .items button:hover,
+#city_modal .list .items button.active
+{
+    color: #007bc2;
+}
+
+
+
+#center_modal
+{
+    width: 1020px;
     padding: 35px 35px 35px 20px;
 }
 
-#city_modal .modal_title
-{
-    margin-bottom: 10px;
-    padding: 0 16px;
-
-    text-align: left;
-}
-
-#city_modal .modal_data
+#center_modal .modal_data
 {
     display: flex;
 
@@ -9631,211 +9913,104 @@ footer .socials img
     flex-wrap: wrap;
 }
 
-#city_modal form
+#center_modal form
 {
-    width: 375px;
+    width: 425px;
     max-width: 100%;
 }
 
-#city_modal select
-{
-    display: none;
-}
-
-#city_modal .nice-select
-{
-    position: relative;
-
-    display: block;
-}
-
-#city_modal .nice-select .current
+#center_modal .city
 {
     color: #007bc2;
-    font-size: 16px;
-    line-height: 48px;
+    font-size: 20px;
+    font-weight: 700;
 
-    position: relative;
-
-    display: block;
-    overflow: hidden;
-
-    height: 50px;
-    padding: 0 50px 0 15px;
-
-    cursor: pointer;
-    transition: .2s linear;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-
-    border: 1px solid #007bc2;
-    border-radius: var(--form_border_radius);
-    background: #f7f7f7;
+    margin-bottom: 10px;
 }
 
-#city_modal .nice-select .current.selected
+#center_modal form .exp
 {
-    color: #008ed4;
-}
-
-#city_modal .nice-select .current:after
-{
-    position: absolute;
-    top: 50%;
-    right: 20px;
-
-    display: block;
-
-    width: 7px;
-    height: 7px;
-    margin-top: -6px;
-
-    content: '';
-    transform: rotate(-45deg);
-
-    border-bottom: 2px solid #008ed4;
-    border-left: 2px solid #008ed4;
-}
-
-#city_modal .nice-select .list
-{
-    position: absolute;
-    z-index: 100;
-    top: calc(100% + 30px);
-    left: 0;
-
-    visibility: hidden;
-    overflow: hidden;
-
-    min-width: 100%;
-
-    transition: .2s linear;
-
-    opacity: 0;
-    border: 1px solid #007bc2;
-    border-radius: var(--form_border_radius);
-    background: #f7f7f7;
-}
-
-#city_modal .nice-select.open .list
-{
-    top: calc(100% + 1px);
-
-    visibility: visible;
-
-    opacity: 1;
-}
-
-#city_modal .nice-select .list .scrollbar
-{
-    overflow: auto;
-
-    max-height: 296px;
-}
-
-#city_modal .nice-select .list .list_item
-{
-    color: #008ed4;
-    font-size: 14px;
-    line-height: normal;
-
-    padding: 10px 15px;
-
-    cursor: pointer;
-    transition: .2s linear;
-}
-
-#city_modal .nice-select .list .list_item:empty
-{
-    display: none;
-}
-
-#city_modal .nice-select .list .list_item:hover,
-#city_modal .nice-select .list .list_item.selected
-{
-    color: #fff;
-
-    background: #008ed4;
-}
-
-#city_modal form .exp
-{
-    color: #666;
-    font-size: 14px;
+    color: #808080;
+    font-size: 12px;
     line-height: 22px;
 
-    padding: 16px;
+    padding: 0 0 10px;
 }
 
-#city_modal form .shops
+#center_modal form .shops
 {
+    padding-top: 16px;
+
     border-top: 1px solid #ebebeb;
 }
 
-#city_modal form .shops .custom_scroll
+#center_modal form .shops .custom_scroll
 {
     overflow: hidden;
 
-    height: 327px;
+    height: 400px;
+    padding-right: 10px;
 }
 
-#city_modal form .shops input[type=radio]
+#center_modal form .shops input[type=radio]
 {
     display: none;
 }
 
-#city_modal form .shops label
+#center_modal form .shops label
 {
-    color: #292929;
+    color: var(--text_color);
     font-size: 14px;
-    line-height: 22px;
+    line-height: 20px;
 
     position: relative;
 
-    display: flex;
+    display: block;
 
     width: 100%;
     height: auto;
-    min-height: 109px;
-    padding: 12px 12px 12px 45px;
+    padding: 14px 45px 14px 15px;
 
     cursor: pointer;
     transition: .2s linear;
 
+    border: 1px solid #e5e5e5;
     border-radius: 2px;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
-#city_modal form .shops label ~ label
+#center_modal form .shops label ~ label
 {
-    margin-top: 1px;
+    margin-top: 5px;
 }
 
-#city_modal form .shops label:before
+#center_modal form .shops label > *
+{
+    display: block;
+}
+
+#center_modal form .shops label .name
+{
+    color: #007bc2;
+
+    transition: color .2s linear;
+}
+
+#center_modal form .shops label .adres
+{
+    font-weight: 700;
+}
+
+#center_modal form .shops label:before
 {
     display: none;
 }
 
-#city_modal form .shops label:after
-{
-    top: 15px;
-    left: 17px;
-
-    width: 14px;
-    height: 8px;
-
-    border-color: #fff;
-}
-
-#city_modal form .shops label:after
+#center_modal form .shops label:after
 {
     position: absolute;
     top: 15px;
-    left: 17px;
+    right: 15px;
+    left: auto;
 
     display: block;
 
@@ -9847,34 +10022,57 @@ footer .socials img
     transform: rotate(-45deg);
 
     opacity: 0;
-    border-bottom: 2px solid #fff;
-    border-left: 2px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
 }
 
-#city_modal form .shops input:checked + label
+#center_modal form .shops input:checked + label
 {
     color: #fff;
 
+    border-color: #007bc2;
     background: #007bc2;
 }
 
-#city_modal form .shops input:checked + label:after
+#center_modal form .shops input:checked + label .name
+{
+    color: #fff;
+}
+
+#center_modal form .shops input:checked + label:after
 {
     opacity: 1;
 }
 
-#city_modal form .submit
-{
-    padding: 31px 28px 0;
 
-    border-top: 1px solid #ebebeb;
+#center_modal form .submit
+{
+    margin-top: 25px;
+    padding: 25px 0 0;
+
+    border-top: 1px solid #d0d0d0;
+
+    justify-content: center;
 }
 
-#city_modal .map
+#center_modal form .cancel,
+#center_modal form .submit_btn
 {
-    width: calc(100% - 395px);
+    width: 140px;
+    max-width: calc(50% - 19px);
+}
 
-    background: #eee;
+#center_modal .form .cancel
+{
+    margin-right: 38px;
+}
+
+
+#center_modal .map
+{
+    width: calc(100% - 455px);
+
+    background: #ddd;
 }
 
 

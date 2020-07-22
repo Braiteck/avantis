@@ -478,9 +478,40 @@
     /*---------------
         PopUp
     ---------------*/
-    #city_modal form .submit
+    #city_modal .tabs button
     {
-        padding: 20px 0 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #city_modal .tabs button + button
+    {
+        margin-left: 25px;
+    }
+
+
+    #city_modal .title
+    {
+        font-size: 17px;
+    }
+
+
+    #city_modal .popular
+    {
+        padding: 0 10px 0 0;
+    }
+
+    #city_modal .popular > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    #city_modal .list
+    {
+        padding: 0 10px 0 0;
+
+        column-count: 2;
     }
 
 

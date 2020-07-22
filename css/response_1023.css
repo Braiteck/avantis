@@ -836,29 +836,65 @@
     /*---------------
         PopUp
     ---------------*/
-    #city_modal
+    #city_modal .tabs
+    {
+        padding: 15px 30px;
+    }
+
+    #city_modal .tabs button + button
+    {
+        margin-left: 40px;
+    }
+
+
+    #city_modal .modal_data
+    {
+        padding: 20px 40px;
+    }
+
+    #city_modal .title
+    {
+        font-size: 19px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    #center_modal
     {
         padding: 35px 20px 20px 20px;
     }
 
-    #city_modal form
+
+    #center_modal form
     {
         width: 320px;
     }
 
-    #city_modal .modal_title
+    #center_modal .city
     {
-        padding: 0;
+        margin-bottom: 8px;
     }
 
-    #city_modal form .exp
+    #center_modal form .exp
     {
-        line-height: 20px;
-
-        padding: 10px 0;
+        line-height: 16px;
     }
 
-    #city_modal .map
+    #center_modal form .cancel,
+    #center_modal form .submit_btn
+    {
+        max-width: calc(50% - 10px);
+    }
+
+    #center_modal .form .cancel
+    {
+        margin-right: 20px;
+    }
+
+
+    #center_modal .map
     {
         width: calc(100% - 340px);
     }
