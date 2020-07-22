@@ -1,0 +1,567 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    .text_block h2
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+    .page_head .page_title
+    {
+        line-height: 24px;
+    }
+
+
+
+    .pagination
+    {
+        line-height: normal;
+
+        margin-top: 25px;
+    }
+
+    .pagination .prev,
+    .pagination .next
+    {
+        display: none;
+    }
+
+    .pagination .load_more
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    .mob_header .logo
+    {
+        width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .mob_header .logo > *
+    {
+        height: 55px;
+    }
+
+
+    .mob_header .links
+    {
+        width: 57%;
+
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .mob_header .links > * + *
+    {
+        margin-left: 11%;
+    }
+
+
+    .mob_header .search form .input,
+    .mob_header .search form .submit_btn
+    {
+        height: 55px;
+    }
+
+    .mob_header .search form .input
+    {
+        padding-left: 15px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    .search_page aside,
+    .category_info aside
+    {
+        width: calc(100% + 30px);
+        max-width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+
+    .category_info aside
+    {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 380px;
+    }
+
+    .main_slider .slide .info
+    {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 30px;
+    }
+
+    .main_slider .slide .title b
+    {
+        font-size: 38px;
+    }
+
+
+
+    .second_block .brands .flex > *
+    {
+        width: calc(50% - 5px);
+    }
+
+
+
+    .advantages .flex
+    {
+        margin-bottom: -25px;
+        margin-left: -15px;
+    }
+
+    .advantages .flex > *
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 25px;
+        margin-left: 15px;
+    }
+
+    .advantages .item .icon
+    {
+        height: 48px;
+    }
+
+
+
+    .cats_wall .cat
+    {
+        padding-bottom: 165px;
+    }
+
+    .cats_wall .cat .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .products .flex,
+    .content .products .flex
+    {
+        margin-bottom: -15px;
+        margin-left: 0;
+    }
+
+    .products .flex > *,
+    .content .products .flex > *
+    {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+
+    .products .product
+    {
+        padding: 50px 20px 20px;
+    }
+
+    .products .product .rating
+    {
+        top: 20px;
+        left: 20px;
+    }
+
+    .products .product .status
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+    .products .product .name a
+    {
+        max-width: 100%;
+    }
+
+    .products .product .bottom
+    {
+        flex-wrap: nowrap;
+    }
+
+    .products .product .amount
+    {
+        width: 64px;
+    }
+
+    .products .product .buy_link
+    {
+        margin-top: 0;
+        margin-left: 4px;
+
+        order: 0;
+    }
+
+
+
+    .articles .article + .article
+    {
+        margin-top: 30px;
+    }
+
+    .articles .article .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    .about .block_title
+    {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .about .block_title br
+    {
+        display: none;
+    }
+
+
+
+    .bottom_text
+    {
+        padding: 0;
+    }
+
+
+
+    .shops .tabs button .title
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    .catalog_wall .cat
+    {
+        padding: 30px 20px;
+    }
+
+    .catalog_wall .main
+    {
+        font-size: 17px;
+
+        width: 100%;
+    }
+
+    .catalog_wall .sub
+    {
+        width: calc(100% + 30px);
+        margin-top: 25px;
+        margin-left: -30px;
+    }
+
+    .catalog_wall .sub > *
+    {
+        max-width: calc(66.666% - 30px);
+        margin-left: 30px;
+    }
+
+
+
+    .search_page .by_schema .item .logo
+    {
+        height: 40px;
+    }
+
+
+
+    .mini_cats_wall .item .icon
+    {
+        width: 60px;
+        padding: 7px 0 7px 7px;
+    }
+
+    .mini_cats_wall .item .icon + .name
+    {
+        width: calc(100% - 60px);
+    }
+
+
+
+    .schemes .cats a
+    {
+        font-size: 14px;
+        line-height: 16px;
+
+        padding: 10px 15px;
+    }
+
+
+    .schemes .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    .prod_advantages .item
+    {
+        font-size: 13px;
+    }
+
+
+
+    .product_info .images .stickers
+    {
+        width: 100%;
+    }
+
+    .product_info .images .modal_cont
+    {
+        position: static;
+    }
+
+    .product_info .images .mini_modal
+    {
+        line-height: 18px;
+
+        left: 0;
+
+        width: 100%;
+        padding: 15px;
+    }
+
+    .product_info .images .mini_modal:before,
+    .product_info .images .mini_modal:after
+    {
+        display: none;
+    }
+
+    .product_info .images .mini_modal a
+    {
+        margin-top: 3px;
+    }
+
+
+    .product_info .info .links > *
+    {
+        font-size: 13px;
+    }
+
+    .product_info .buy_info .status + .articul
+    {
+        margin-left: 25px;
+    }
+
+
+
+    .product_reviews .review .info
+    {
+        width: 100%;
+    }
+
+    .product_reviews .review .data
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .product_reviews .review .answer
+    {
+        padding-left: 20px;
+    }
+
+
+    .product_reviews .add_review .form
+    {
+        padding: 20px;
+    }
+
+
+
+    .model_cats .cat
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding: 15px;
+    }
+
+    .model_cats .cat .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .menu
+    {
+        column-count: 2;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    #city_modal form .submit
+    {
+        padding: 20px 0 0;
+    }
+
+
+
+    #cart_modal .product
+    {
+        padding: 15px;
+    }
+
+    #cart_modal .product .thumb
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #cart_modal .product .info
+    {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+
+        text-align: center;
+
+        align-self: center;
+    }
+
+    #cart_modal .product .amount
+    {
+        width: 90px;
+        min-width: 0;
+    }
+
+    #cart_modal .product .price,
+    #cart_modal .product .price.total
+    {
+        font-size: 15px;
+
+        width: auto;
+        min-width: 0;
+    }
+
+    #cart_modal .product .price.total
+    {
+        margin-left: auto;
+    }
+
+    #cart_modal .product .del
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        margin: 0;
+    }
+
+
+    #cart_modal .cart_total
+    {
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    #cart_modal .cart_total .val
+    {
+        min-width: 0;
+    }
+
+    #cart_modal .cart_total .count
+    {
+        display: none;
+    }
+
+
+    #cart_modal .links .continue
+    {
+        margin-right: auto;
+    }
+
+
+
+    #promo_modal .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #promo_modal .title b
+    {
+        font-size: 20px;
+    }
+
+
+    #promo_modal .products .product
+    {
+        padding: 40px 20px 20px;
+    }
+
+    #promo_modal .products .product .thumb
+    {
+        padding-bottom: 50%;
+    }
+
+
+    #promo_modal .discount
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    #promo_modal .discount b
+    {
+        display: inline;
+    }
+
+
+
+    #promo_modal ~ .fancybox-close-small
+    {
+        top: 0;
+        right: 0;
+    }
+}
