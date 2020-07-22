@@ -703,6 +703,54 @@
 
 
 
+    .shops_filter .form
+    {
+        padding: 25px 20px 5px;
+    }
+
+    .shops_filter .form .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+    .shops_filter .form input[type=checkbox] + label
+    {
+        font-size: 13px;
+    }
+
+
+
+    .shops_list .shop .adres
+    {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .shops_list .phone
+    {
+        width: calc(100% - 150px);
+        margin-left: 0;
+    }
+
+
+
+    .shop_info .info
+    {
+        width: 100%;
+    }
+
+
+    .shop_info .cats
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
     .all
     {
         margin-top: 30px;

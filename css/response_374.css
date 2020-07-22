@@ -474,6 +474,39 @@
 
 
 
+    .shops_map #map
+    {
+        height: 360px;
+    }
+
+
+
+    .shops_list .shop .name
+    {
+        width: calc(100% - 134px);
+        margin-left: 15px;
+    }
+
+
+    .shops_list .shop .phone,
+    .shops_list .shop .time
+    {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0;
+    }
+
+
+
+    .shop_info .info .item,
+    .shop_info .cats
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

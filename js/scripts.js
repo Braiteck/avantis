@@ -321,47 +321,47 @@ $(function(){
 
 
 
-	$.fancybox.open({
-		src  : '#promo_modal',
-		type : 'inline',
-		afterLoad: function(){
-			$('.fancybox-content .products .product .name').height('auto')
-			$('.fancybox-content .products .slider').trigger('destroy.owl.carousel')
+	// $.fancybox.open({
+	// 	src  : '#promo_modal',
+	// 	type : 'inline',
+	// 	afterLoad: function(){
+	// 		$('.fancybox-content .products .product .name').height('auto')
+	// 		$('.fancybox-content .products .slider').trigger('destroy.owl.carousel')
 
-			$('.fancybox-content .products .slider').owlCarousel({
-				nav: true,
-				dots: false,
-				loop: true,
-				smartSpeed: 500,
-				responsive: {
-			        0:{
-			            items: 1,
-			            margin: 15
-			        },
-			        480:{
-			            items: 2,
-			            margin: 15
-			        },
-			        768:{
-			            items: 3,
-			            margin: 15
-			        },
-			        1024:{
-			            items: 4,
-			            margin: 15
-			        }
-				},
-				onInitialized: function(event){
-					setHeight($(event.target).find('.product .name'))
-				},
-				onResized: function(event){
-					$(event.target).find('.product .name').height('auto')
+	// 		$('.fancybox-content .products .slider').owlCarousel({
+	// 			nav: true,
+	// 			dots: false,
+	// 			loop: true,
+	// 			smartSpeed: 500,
+	// 			responsive: {
+	// 		        0:{
+	// 		            items: 1,
+	// 		            margin: 15
+	// 		        },
+	// 		        480:{
+	// 		            items: 2,
+	// 		            margin: 15
+	// 		        },
+	// 		        768:{
+	// 		            items: 3,
+	// 		            margin: 15
+	// 		        },
+	// 		        1024:{
+	// 		            items: 4,
+	// 		            margin: 15
+	// 		        }
+	// 			},
+	// 			onInitialized: function(event){
+	// 				setHeight($(event.target).find('.product .name'))
+	// 			},
+	// 			onResized: function(event){
+	// 				$(event.target).find('.product .name').height('auto')
 
-					setHeight($(event.target).find('.product .name'))
-				}
-			})
-		}
-	})
+	// 				setHeight($(event.target).find('.product .name'))
+	// 			}
+	// 		})
+	// 	}
+	// })
 })
 
 

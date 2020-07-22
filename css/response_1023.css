@@ -644,6 +644,139 @@
 
 
 
+    .shops_filter .form
+    {
+        padding: 25px 25px 5px;
+    }
+
+    .shops_filter .form .columns
+    {
+        --form_columns_offset: 25px;
+    }
+
+    .shops_filter .form .columns > *.width1of4
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+
+    .shops_list .titles
+    {
+        display: none;
+    }
+
+
+    .shops_list .shop
+    {
+        padding: 15px;
+
+        flex-wrap: wrap;
+    }
+
+
+    .shops_list .shop .name
+    {
+        width: calc(100% - 139px);
+    }
+
+
+    .shops_list .shop .adres
+    {
+        position: relative;
+
+        margin-top: 15px;
+        margin-left: 0;
+        padding-top: 20px;
+
+        align-self: flex-start;
+    }
+
+
+    .shops_list .shop .phone,
+    .shops_list .shop .time
+    {
+        position: relative;
+
+        margin-top: 15px;
+        padding-top: 20px;
+
+        align-self: flex-start;
+    }
+
+
+    .shops_list .shop .phone > *
+    {
+        display: flex;
+    }
+
+    .shops_list .shop .phone .number
+    {
+        font-size: 15px;
+
+        width: 130px;
+    }
+
+    .shops_list .shop .phone b
+    {
+        margin-left: 5px;
+    }
+
+
+    .shops_list .shop .adres:before,
+    .shops_list .shop .phone:before,
+    .shops_list .shop .time:before
+    {
+        color: #000;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 14px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .4;
+    }
+
+
+    .shops_list .phone
+    {
+        width: calc(100% - 370px);
+        min-width: 0;
+    }
+
+
+
+    .shop_info .thumb
+    {
+        width: 456px;
+        max-width: 100%;
+        height: 293px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+    }
+
+
+    .shop_info .info
+    {
+        width: calc(100% - 295px);
+        margin-left: 0;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

@@ -889,6 +889,131 @@
 
 
 
+    .shops_filter .form
+    {
+        padding: 25px 20px 5px;
+    }
+
+    .shops_filter .form .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+    .shops_filter .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    .shops_map #map
+    {
+        height: 400px;
+    }
+
+
+
+    .shops_list .titles
+    {
+        padding: 0 10px;
+    }
+
+
+    .shops_list .shop
+    {
+        padding: 10px;
+    }
+
+
+    .shops_list .shop .phone > *
+    {
+        display: block;
+    }
+
+    .shops_list .shop .phone > * + *
+    {
+        margin-top: 10px;
+    }
+
+    .shops_list .shop .phone .number
+    {
+        width: auto;
+    }
+
+    .shops_list .shop .phone b
+    {
+        margin-left: 0;
+    }
+
+
+    .shops_list .shop .adres,
+    .shops_list .shop .time
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .shops_list .adres
+    {
+        width: 200px;
+        min-width: 200px;
+    }
+
+    .shops_list .phone
+    {
+        font-size: 13px;
+
+        width: 155px;
+        min-width: 155px;
+    }
+
+    .shops_list .time
+    {
+        width: 130px;
+        min-width: 130px;
+    }
+
+
+
+    .shop_info .info
+    {
+        width: calc(65.19% - 315px);
+        margin-left: 20px;
+    }
+
+
+    .shop_info .info .item
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .shop_info .info .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .shop_info .info .item.adres .get_path
+    {
+        display: block;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .shop_info .cats
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        width: 275px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

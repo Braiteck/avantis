@@ -358,6 +358,63 @@
 
 
 
+    .shops_filter .form
+    {
+        padding: 30px 25px 5px;
+    }
+
+    .shops_filter .form .columns
+    {
+        --form_columns_offset: 25px;
+    }
+
+
+
+    .shops_list .titles > * + *,
+    .shops_list .shop > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .shops_list .shop .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .shops_list .shop .adres,
+    .shops_list .shop .time
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .shop_info .info
+    {
+        width: calc(65.19% - 355px);
+        margin-left: 30px;
+    }
+
+    .shop_info .info .item + .item
+    {
+        margin-top: 25px;
+    }
+
+
+    .shop_info .cats
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 295px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
