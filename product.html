@@ -1961,23 +1961,443 @@
 		</section>
 
 
-		<section class="modal" id="city_modal">
+		<section class="modal tabs_container" id="city_modal">
+			<div class="tabs">
+				<button data-content="#city_tab1" data-level="level1" class="active">
+					<img src="images/ic_flag_ru.png" alt="">
+					россия
+				</button>
+
+				<button data-content="#city_tab2" data-level="level1">
+					<img src="images/ic_flag_bl.png" alt="">
+					беларусь
+				</button>
+			</div>
+
+
+			<div class="modal_data">
+				<div class="tab_content level1 active" id="city_tab1">
+					<div class="title">Работаем по всей России</div>
+
+					<div class="search">
+						<div class="label">Найдите свой город:</div>
+
+						<form action="">
+							<input type="text" name="" value="" placeholder="Название города" class="input">
+							<button type="submit" class="submit_btn"></button>
+						</form>
+					</div>
+
+					<div class="popular">
+						<div><button class="modal_link" data-content="#center_modal">Москва</button></div>
+
+						<div><button class="modal_link" data-content="#center_modal">Санкт-Петербург</button></div>
+					</div>
+
+					<div class="custom_scroll">
+						<div class="list">
+							<div class="letter">
+								<div class="name">А</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Алдан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анадырь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анапа</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Архангельск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Астрахань</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Афипский</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Б</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Барнаул</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Балашиха</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Белгород</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Биробиджан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Брянск</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">К</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Кемерово</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Киров</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Клинцы</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Краснодар</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Красноярск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курган</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Кызыл</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">М</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Магадан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магас</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магнитогорск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Майкоп</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">С</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Самара</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Саранск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Севастополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Симферополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Смоленск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сосновый Бор</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Ставрополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Стерлитамак</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Строитель</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сургут</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сухой Лог</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сыктывкар</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Ч</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Чайковский</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чебоксары</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Челябинск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Череповец</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Черкесск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чита</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чурапча</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Э</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Элиста</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">А</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Алдан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анадырь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анапа</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Архангельск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Астрахань</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Афипский</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Б</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Барнаул</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Балашиха</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Белгород</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Биробиджан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Брянск</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">К</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Кемерово</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Киров</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Клинцы</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Краснодар</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Красноярск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курган</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Кызыл</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">М</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Магадан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магас</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магнитогорск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Майкоп</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">С</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Самара</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Саранск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Севастополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Симферополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Смоленск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сосновый Бор</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Ставрополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Стерлитамак</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Строитель</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сургут</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сухой Лог</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сыктывкар</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Ч</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Чайковский</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чебоксары</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Челябинск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Череповец</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Черкесск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чита</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чурапча</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Э</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Элиста</button></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="tab_content level1" id="city_tab2">
+					<div class="title">Работаем по всей России</div>
+
+					<div class="search">
+						<div class="label">Найдите свой город:</div>
+
+						<form action="">
+							<input type="text" name="" value="" placeholder="Название города" class="input">
+							<button type="submit" class="submit_btn"></button>
+						</form>
+					</div>
+
+					<div class="popular">
+						<div><button class="modal_link" data-content="#center_modal">Москва</button></div>
+
+						<div><button class="modal_link" data-content="#center_modal">Санкт-Петербург</button></div>
+					</div>
+
+					<div class="custom_scroll">
+						<div class="list">
+							<div class="letter">
+								<div class="name">А</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Алдан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анадырь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анапа</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Архангельск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Астрахань</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Афипский</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Б</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Барнаул</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Балашиха</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Белгород</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Биробиджан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Брянск</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">К</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Кемерово</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Киров</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Клинцы</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Краснодар</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Красноярск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курган</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Кызыл</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">М</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Магадан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магас</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магнитогорск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Майкоп</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">С</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Самара</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Саранск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Севастополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Симферополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Смоленск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сосновый Бор</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Ставрополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Стерлитамак</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Строитель</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сургут</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сухой Лог</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сыктывкар</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Ч</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Чайковский</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чебоксары</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Челябинск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Череповец</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Черкесск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чита</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чурапча</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Э</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Элиста</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">А</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Алдан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анадырь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Анапа</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Архангельск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Астрахань</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Афипский</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Б</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Барнаул</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Балашиха</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Белгород</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Биробиджан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Брянск</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">К</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Кемерово</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Киров</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Клинцы</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Краснодар</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Красноярск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курган</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Курск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Кызыл</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">М</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Магадан</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магас</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Магнитогорск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Майкоп</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">С</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Самара</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Саранск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Севастополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Симферополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Смоленск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сосновый Бор</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Ставрополь</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Стерлитамак</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Строитель</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сургут</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сухой Лог</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Сыктывкар</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Ч</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Чайковский</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чебоксары</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Челябинск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Череповец</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Черкесск</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чита</button></div>
+									<div><button class="modal_link" data-content="#center_modal">Чурапча</button></div>
+								</div>
+							</div>
+
+							<div class="letter">
+								<div class="name">Э</div>
+
+								<div class="items">
+									<div><button class="modal_link" data-content="#center_modal">Элиста</button></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="center_modal">
 			<div class="modal_data">
 				<form action="" class="form">
-					<div class="modal_title">Выберите город</div>
-
-					<select name="">
-						<option value="1">Москва</option>
-						<option value="2">Москва</option>
-						<option value="3">Москва</option>
-						<option value="4">Москва</option>
-						<option value="5">Москва</option>
-						<option value="1">Москва</option>
-						<option value="2">Москва</option>
-						<option value="3">Москва</option>
-						<option value="4">Москва</option>
-						<option value="5">Москва</option>
-					</select>
+					<div class="city">Москва</div>
 
 					<div class="exp">Выберите ближайший к себе центр обслуживания для получения заказа</div>
 
@@ -1986,38 +2406,68 @@
 						<div class="custom_scroll">
 							<input type="radio" name="shops" id="shops_check1">
 							<label for="shops_check1">
-								<div>
-									<b>Москва</b>, ул. Дорожная 3к6<br>
-									+7 495 120 15 30<br>
-									пн-вс 09-00 - 21-00
-								</div>
+								<span class="name">Официальный магазин производителя</span>
+
+								<span class="adres">Москва , ул. Дорожная 3к6, Магазин производителя Авантис</span>
+
+								<span class="phone">+7 495 120 15 30, 8-800-333-08-29</span>
+
+								<span class="time">пн-вс 09-00 - 21-00</span>
 							</label>
 
-							<input type="radio" name="shops" id="shops_check2" checked>
+							<input type="radio" name="shops" id="shops_check2">
 							<label for="shops_check2">
-								<div>
-									<b>Москва</b>, 65-й км МКАД, вл.1, партнёрский магазин Авантис (админ. Здание ТК "Синдика")<br>
-									тел. +7 (499) 653-56-09<br>
-									пн-вс 09-00 - 21-00
-								</div>
+								<span class="name">Дилерский магазин ATV-MOTO.ORG</span>
+
+								<span class="adres">Москва , Россия, Москва, 5-я Кабельная улица, 2с1, Дилерский магазин Авантис</span>
+
+								<span class="phone">+7 499 213-28-29</span>
+
+								<span class="time">Пн-вс: с 10-00 до 21-00.</span>
 							</label>
 
 							<input type="radio" name="shops" id="shops_check3">
 							<label for="shops_check3">
-								<div>
-									<b>Москва</b>, ул. Дорожная 3к6<br>
-									+7 495 120 15 30<br>
-									пн-вс 09-00 - 21-00
-								</div>
+								<span class="name">Дилерский магазин Детские Квадроциклы Ру</span>
+
+								<span class="adres">Москва , 65-й км МКАД, вл.1, дилерский магазин Авантис (админ. Здание ТК "Синдика")</span>
+
+								<span class="phone">+7 (499) 653-56-09</span>
+
+								<span class="time">пн-вс 09-00 - 21-00</span>
 							</label>
 
 							<input type="radio" name="shops" id="shops_check4">
 							<label for="shops_check4">
-								<div>
-									<b>Москва</b>, 65-й км МКАД, вл.1, партнёрский магазин Авантис (админ. Здание ТК "Синдика")<br>
-									тел. +7 (499) 653-56-09<br>
-									пн-вс 09-00 - 21-00
-								</div>
+								<span class="name">Официальный магазин производителя</span>
+
+								<span class="adres">Москва , ул. Дорожная 3к6, Магазин производителя Авантис</span>
+
+								<span class="phone">+7 495 120 15 30, 8-800-333-08-29</span>
+
+								<span class="time">пн-вс 09-00 - 21-00</span>
+							</label>
+
+							<input type="radio" name="shops" id="shops_check5">
+							<label for="shops_check5">
+								<span class="name">Дилерский магазин ATV-MOTO.ORG</span>
+
+								<span class="adres">Москва , Россия, Москва, 5-я Кабельная улица, 2с1, Дилерский магазин Авантис</span>
+
+								<span class="phone">+7 499 213-28-29</span>
+
+								<span class="time">Пн-вс: с 10-00 до 21-00.</span>
+							</label>
+
+							<input type="radio" name="shops" id="shops_check6">
+							<label for="shops_check6">
+								<span class="name">Дилерский магазин Детские Квадроциклы Ру</span>
+
+								<span class="adres">Москва , 65-й км МКАД, вл.1, дилерский магазин Авантис (админ. Здание ТК "Синдика")</span>
+
+								<span class="phone">+7 (499) 653-56-09</span>
+
+								<span class="time">пн-вс 09-00 - 21-00</span>
 							</label>
 						</div>
 					</div>
@@ -2032,7 +2482,7 @@
 
 
 				<div class="map">
-					
+
 				</div>
 			</div>
 		</section>
