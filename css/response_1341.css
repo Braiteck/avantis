@@ -30,7 +30,7 @@
 
     header .city .link
     {
-        max-width: 140px;
+        max-width: 120px;
     }
 
 
@@ -55,6 +55,20 @@
         padding-left: 266px;
 
         background: #f3f3f3;
+    }
+
+
+
+    header .contacts .phone
+    {
+        font-size: 15px;
+    }
+
+
+    header .account,
+    header .links
+    {
+        margin-left: 15px;
     }
 
 
