@@ -959,4 +959,19 @@
         font-size: 18px;
         line-height: 22px;
     }
+
+
+
+    #search_modal form .input
+    {
+        padding: 0 60px 0 25px;
+    }
+
+    #search_modal form .in_category .categories label
+    {
+        font-size: 15px;
+
+        min-height: 71px;
+        padding: 12px 20px;
+    }
 }

@@ -361,17 +361,10 @@
 								</div>
 
 
-								<div class="modal_cont search">
-									<button class="link mini_modal_link" data-modal-id="#search_modal">
+								<div class="search">
+									<button class="link modal_link" data-content="#search_modal">
 										<img src="images/ic_search.svg" alt="">
 									</button>
-
-									<div class="mini_modal search_modal" id="search_modal">
-										<form action="">
-											<input type="text" name="" value="" placeholder="Поиск по сайту..." class="input">
-											<button type="submit" class="submit_btn"></button>
-										</form>
-									</div>
 								</div>
 
 
@@ -437,17 +430,10 @@
 						</div>
 
 
-						<div class="modal_cont search">
-							<button class="link mini_modal_link" data-modal-id="#search_modal2">
+						<div class="search">
+							<button class="link modal_link" data-content="#search_modal">
 								<img src="images/ic_search.svg" alt="">
 							</button>
-
-							<div class="mini_modal search_modal" id="search_modal2">
-								<form action="">
-									<input type="text" name="" value="" placeholder="Поиск по сайту..." class="input">
-									<button type="submit" class="submit_btn"></button>
-								</form>
-							</div>
 						</div>
 
 
@@ -476,11 +462,11 @@
 						<a href="/" class="back_link">Вернуться назад</a>
 
 						<div class="breadcrumbs">
-							<a href="/">Главная</a> <span class="sep">/</span> 
-							<a href="/">Запчасти</a> <span class="sep">/</span> 
-							<a href="/">Запчасти для квадроциклов</a> <span class="sep">/</span> 
-							<a href="/">Квадроциклы Avantis</a> <span class="sep">/</span> 
-							<a href="/">Avantis Hunter 7</a> <span class="sep">/</span> 
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<a href="/">Запчасти</a> <span class="sep">/</span>
+							<a href="/">Запчасти для квадроциклов</a> <span class="sep">/</span>
+							<a href="/">Квадроциклы Avantis</a> <span class="sep">/</span>
+							<a href="/">Avantis Hunter 7</a> <span class="sep">/</span>
 							<a href="/">Двигатель и топливная система</a> <span class="sep">/</span>
 						</div>
 
@@ -2031,7 +2017,7 @@
 
 
 				<div class="map">
-					
+
 				</div>
 			</div>
 		</section>
@@ -2218,6 +2204,34 @@
 
 					<a href="/" class="checkout_link">Оформить заказ</a>
 				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="search_modal">
+			<div class="modal_data">
+				<form action="">
+					<input type="text" name="" value="" placeholder="Поиск по сайту..." class="input">
+
+					<button type="submit" class="submit_btn"></button>
+
+					<div class="in_category">
+						<div class="title">Показать результаты поиска в категории:</div>
+
+						<div class="categories">
+							<input type="radio" name="categories" id="categories_check1" disabled>
+							<label for="categories_check1">техника</label>
+
+							<input type="radio" name="categories" id="categories_check2" disabled>
+							<label for="categories_check2">запчасти и аксесуары</label>
+						</div>
+
+						<div class="remember">
+							<input type="checkbox" name="remember" id="search_remember_check">
+							<label for="search_remember_check">Запомнить выбор</label>
+						</div>
+					</div>
+				</form>
 			</div>
 		</section>
 

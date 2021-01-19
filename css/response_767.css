@@ -122,18 +122,6 @@
         margin-left: 5px;
     }
 
-    .mob_header .search .search_modal,
-    .mob_header .search .search_modal.active
-    {
-        padding-left: 0;
-    }
-
-    .mob_header .search form .input,
-    .mob_header .search form .submit_btn
-    {
-        height: 60px;
-    }
-
 
     .mob_header .account
     {
@@ -953,6 +941,39 @@
         margin-top: 15px;
         margin-right: auto;
         margin-left: auto;
+    }
+
+
+
+    #search_modal form .input
+    {
+        padding: 0 55px 0 20px;
+    }
+
+    #search_modal form .in_category
+    {
+        width: 100%;
+        padding: 25px 20px 20px;
+    }
+
+    #search_modal form .in_category .title
+    {
+        font-size: 15px;
+
+        margin-bottom: 15px;
+    }
+
+    #search_modal form .in_category .categories label
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        min-height: 60px;
+    }
+
+    #search_modal form .in_category .remember
+    {
+        margin-top: 15px;
     }
 
 
